@@ -10,8 +10,8 @@ public class HelloController {
 	public String index() {
 		return "Hello, Spring Boot!";
 	}
-    @RequestMapping("/miyagi")
+    @RequestMapping("/honda")
     public String miyagi(){
-        return "Miyagi desu!";
+        return "honda desu!";
     }
 }
